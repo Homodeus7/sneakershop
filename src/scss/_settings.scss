@@ -46,6 +46,22 @@ a {
   cursor: pointer;
 }
 
+.btn {
+  padding: 22px 47px;
+  border-radius: 4px;
+  font: var(--medium-font);
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  z-index: 1;
+  &--primary{
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    &:hover{
+      background-color: var(--color-accent-hover);
+    }
+  }
+}
+
 .list-reset {
   list-style: none;
   margin: 0;

@@ -14,12 +14,16 @@
   --color-grey: #999;
   --color-eastbay: #3a407a;
   --color-accent: #f14f4f;
+  --color-accent-hover: #cc4949;
+  --color-border: rgba(255, 255, 255, 0.5);
 
   // fonts
-  --middle-title: bold 40px / 80% var(--font-title); 
-  --medium-font: normal 16px / 140% var(--font-family); 
+  --middle-title: bold 36px / 80% var(--font-title); 
+  --medium-font: normal 18px / 140% var(--font-family); 
 
   // gaps
   --grid-gap: 20px;
   --main-offset: 40px;
+  --second-offset: 20px;
+  --paddings: 15px;
 }
