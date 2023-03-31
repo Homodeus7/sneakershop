@@ -2,11 +2,17 @@
 // colors
 :root {
   // base
-  --font-family: "Open Sans", sans-serif;
+  --font-family: "Roboto";
   --content-width: 1170px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
-  --light-color: #fff;
+  --white-color: #fff;
+  --black-color: #000;
+  --grey-color: #999;
+  --eastbay-color: #3a407a;
+
+  // gaps
+  --grid-gap: 20px;
 }

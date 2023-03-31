@@ -88,6 +88,12 @@ a {
   outline: none;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--grid-gap);
+}
+
 .centered {
   text-align: center;
 }

@@ -1,16 +1,14 @@
-// базовые подключения
+// base stules
 @import "vars";
 @import "mixins";
 @import "fonts";
 @import "settings";
 
-// подключения компонентов страницы
+// page components
 @import "./components/header";
+@import "./components/nav";
+@import "./components/hero";
 
-// тестовые стили, удалите их
-.page__body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--vh);
-}
+// bit
+@import "./components/cart";
+
