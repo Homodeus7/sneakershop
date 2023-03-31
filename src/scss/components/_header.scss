@@ -3,7 +3,11 @@
     left: 0;
     top: 0;
     width: 100%;
+    &__container{
+        align-items: center;
+    }
     &__left{
+        padding-top: 10px;
         grid-column: 2 span;
     }
     &__right{

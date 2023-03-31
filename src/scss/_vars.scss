@@ -2,17 +2,24 @@
 // colors
 :root {
   // base
-  --font-family: "Roboto";
+  --font-family: "Roboto", sans-serif;
+  --font-title: "Teko";
   --content-width: 1170px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
-  --white-color: #fff;
-  --black-color: #000;
-  --grey-color: #999;
-  --eastbay-color: #3a407a;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #999;
+  --color-eastbay: #3a407a;
+  --color-accent: #f14f4f;
+
+  // fonts
+  --middle-title: bold 40px / 80% var(--font-title); 
+  --medium-font: normal 16px / 140% var(--font-family); 
 
   // gaps
   --grid-gap: 20px;
+  --main-offset: 40px;
 }
